@@ -1,6 +1,6 @@
 # This repository contains a test task for Frontend Developer 
 
-Preview could see [here](https://basic-image-transformer.vercel.app/)
+<!-- Preview could see [here](https://forij.github.io/test-task-basic-image-transformer/) it would work only in public repo -->
     
 ## Prerequisites
 - Node.js v23 
