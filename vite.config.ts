@@ -6,7 +6,7 @@ const prodBasePath = '/test-task-basic-image-transformer/';
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'serve' ? prodBasePath : '/',
+    base: command === 'serve' ?  '/' : prodBasePath,
     plugins: [vue()],
   };
 });
