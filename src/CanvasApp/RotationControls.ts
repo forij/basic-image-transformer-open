@@ -98,7 +98,7 @@ class RotationControls extends Entity {
         return false;
     }
 
-    tick(dt: number, vertices: IVertices): void {
+    tick(_dt: number, vertices: IVertices): void {
         this.draw(vertices);
     }
 }

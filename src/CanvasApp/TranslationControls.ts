@@ -1,6 +1,6 @@
 import { Entity, type IEntityMouseEvent } from "./Entity";
 import type { IVertices } from "./ITransofrmBox";
-import { getCenter, vec2Subtract, isPointInRect, translateVertices } from "./verticesUtils";
+import { vec2Subtract, isPointInRect, translateVertices } from "./verticesUtils";
 import { COLOR_PALETTE } from "./constant";
 
 type TranslationControlsState = 'idle' | 'hover' | 'active';
@@ -86,7 +86,7 @@ class TranslationControls extends Entity {
         return false;
     }
 
-    tick(dt: number, vertices: IVertices): void {
+    tick(_dt: number, vertices: IVertices): void {
         this.draw(vertices);
     }
 }

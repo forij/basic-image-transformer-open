@@ -19,7 +19,8 @@ class Entity {
     /**
      * Called from parent when the entity should resize
      */
-    onResize(width: number, height: number) {
+    onResize(_width: number, _height: number) {
+
     }
 
     addChild(child: Entity) {
@@ -45,9 +46,9 @@ class Entity {
 
     /**
      * Called on each frame update
-     * @param dt Delta time in milliseconds
+     * @param _dt Delta time in milliseconds
      */
-    tick(dt: number, ...args: any[]): void {
+    tick(_dt: number, ..._args: any[]): void {
 
     }
 }

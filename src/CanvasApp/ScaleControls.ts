@@ -37,7 +37,7 @@ class ScaleControls extends Entity {
     draw(vertices: IVertices) {
         this.prevBoxVertices = vertices;
         const btnCenter = vertices[this.vertexKey];
-        const { bg, text } = this.getColors();
+        const { bg } = this.getColors();
 
         // draw circle
         this.ctx.beginPath();
@@ -154,7 +154,7 @@ class ScaleControls extends Entity {
         return false;
     }
 
-    tick(dt: number, vertices: IVertices): void {
+    tick(_dt: number, vertices: IVertices): void {
         this.draw(vertices);
     }
 }
