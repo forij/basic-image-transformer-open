@@ -19,4 +19,4 @@ export const DEFAULT_TRANSFORM_BOX_SIZE = { width: 1280, height: 740 };
 export const ROTATION_BTN_MARGIN = 40; // from the bottom center of the box ( px ) 
 export const BTN_RADIUS = 20; // px
 
-export const EXAMPLE_IMAGE_SRC = '/example_image.jpg';
+export const EXAMPLE_IMAGE_SRC =  './example_image.jpg';
